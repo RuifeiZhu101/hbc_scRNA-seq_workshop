@@ -316,3 +316,7 @@ metadata_filtered %>%
   geom_vline(xintercept = 500) +
   geom_hline(yintercept = 250) +
   facet_wrap(~sample)
+
+# Create .RData object to load at any time
+save(filtered_seurat, file="data/seurat_filtered.RData")
+

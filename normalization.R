@@ -133,5 +133,4 @@ split_seurat$stim@assays
 # Save the split seurat object
 saveRDS(split_seurat, "data/split_seurat.rds")
 
-# Load the split seurat object into the environment
-# split_seurat <- readRDS("data/split_seurat.rds")
+
